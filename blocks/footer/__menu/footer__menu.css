@@ -1,0 +1,13 @@
+.footer__menu{
+   justify-content: flex-start;
+}
+
+@media  screen and (max-width: 425px) {
+   .footer__menu{
+      display: grid;
+      gap: 32px;
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(5, 1fr);
+      margin-bottom: 48px;
+   }
+}

@@ -1,0 +1,23 @@
+.place__text{
+    min-width: 484px;
+}
+
+@media  screen and (max-width: 1024px) {
+    .place__text{
+        min-width: calc((456/1024)*100%);
+    }
+    
+}
+
+@media  screen and (max-width: 768px) {
+    .place__text{
+        min-width: calc((352/768)*100%);
+    }
+}
+
+@media  screen and (max-width: 425px) {
+    .place__text{
+        min-width: calc((288/320)*100%);
+    }
+    
+}
