@@ -1,0 +1,12 @@
+.header__lang-menu{
+    max-width: 144px;
+    align-self: center;
+    padding-top: 18px;
+}
+
+@media  screen and (max-width: 425px) {
+    .header__lang-menu{
+        padding-top: 14px;
+    }
+    
+}
