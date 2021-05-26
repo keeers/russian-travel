@@ -4,7 +4,7 @@
     align-self: flex-end;
 }
 
-@media  screen and (max-width: 425px) {
+@media  screen and (max-width: 767px) {
     .footer__copyright{
         align-self: flex-start;
         font-size: 14px;

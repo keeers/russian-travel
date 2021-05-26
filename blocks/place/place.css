@@ -6,7 +6,7 @@
     grid-template-rows: repeat(2, fit-content(100%));
 }
 
-@media  screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .place{
         min-width: calc((928/1024)*100%);
         gap: 48px 32px;
@@ -14,14 +14,14 @@
     
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .place{
         min-width: calc((720/768)*100%);
         gap: 48px 28px;
     }
 }
 
-@media  screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .place{
         min-width: calc((320/320)*100%);
         gap: 32px;

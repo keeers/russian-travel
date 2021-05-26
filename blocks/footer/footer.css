@@ -9,20 +9,20 @@
     min-height: 18px;
 }
 
-@media  screen and (max-width: 1024px) {
+@media  screen and (max-width: 1279px) {
     .footer{
         max-width: calc((928/1024)*100%);
     }
 }
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 1023px) {
     .footer{
         max-width: calc((720/768)*100%);
         margin-top: 88px;
     }
 }
 
-@media  screen and (max-width: 425px) {
+@media  screen and (max-width: 767px) {
     .footer{
         max-width: calc((186/320)*100%);
         margin-left: 16px;

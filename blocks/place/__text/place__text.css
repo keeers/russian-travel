@@ -1,21 +1,21 @@
 .place__text{
-    min-width: 484px;
+    min-width: calc((484/1280)*100%);
 }
 
-@media  screen and (max-width: 1024px) {
+@media  screen and (max-width: 1279px) {
     .place__text{
         min-width: calc((456/1024)*100%);
     }
     
 }
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 1023px) {
     .place__text{
         min-width: calc((352/768)*100%);
     }
 }
 
-@media  screen and (max-width: 425px) {
+@media  screen and (max-width: 767px) {
     .place__text{
         min-width: calc((288/320)*100%);
     }
