@@ -1,5 +1,5 @@
 .place{
-    min-width: calc((984/1280)*100%);
+    min-width: 984px;
     display: grid;
     gap: 48px 40px;
     grid-template-columns: repeat(2, fit-content(100%));
