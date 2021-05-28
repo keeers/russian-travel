@@ -10,6 +10,7 @@
     background-image: url(../../images/cover-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     transition: opacity ease 1s;
 }
 

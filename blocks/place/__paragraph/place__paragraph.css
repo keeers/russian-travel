@@ -1,5 +1,5 @@
 .place__paragraph{
-    min-width: calc((484/1280)*100%);
+    min-width: 484px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
